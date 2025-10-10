@@ -1,0 +1,78 @@
+#include <string>
+#include <vector>
+#include <stack>
+#include <iostream>
+using namespace std;
+// it does bottonNum opt topNum
+int calcOutput(string opt, int topNum, int bottomNum){
+    if (opt == "+"){
+        return bottomNum + topNum;
+    }
+    else if (opt == "-"){
+        return bottomNum - topNum;
+    }
+    else if (opt == "/"){
+        return bottomNum / topNum; 
+    }
+    else if (opt == "*"){
+        return bottomNum * topNum;
+    }
+    else{
+        cout<<"Please denote an operator"<<endl;
+        return bottomNum;
+    }
+}
+
+bool isNum(string input){
+    int num;
+    try{
+        num = stod(input);
+        return true;
+    }
+    catch(exception e){
+        e.what();
+        return false;
+    }
+}
+int main()
+{
+    // Enter your code here
+    string input;
+    int num;
+    int topNum;
+    int botNum;
+    int currNum;
+    stack<int> numbers;
+    while (true){
+        cout<<"> ";
+        getline(cin, input);
+        try{
+            if (input == "exit"){
+                break;
+            }
+            if (isNum(input)){
+                num = stod(input);
+                numbers.push(num);
+            }
+            else{
+                if (numbers.size()>=2){
+                    topNum = numbers.top();
+                    numbers.pop();
+                    botNum = numbers.top();
+                    numbers.pop();
+                    currNum = calcOutput(input, topNum, botNum);
+                    cout<<currNum<<endl;
+                    numbers.push(currNum);
+                }
+                else if (numbers.size()<2){
+                    cout<<"Error - Not enough numbers in stack"<<endl;
+                    continue;
+                }
+            }
+        }catch(exception e){
+            e.what();
+            break;
+        }
+    }
+    return 0;
+}
