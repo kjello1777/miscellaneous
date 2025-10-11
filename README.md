@@ -16,10 +16,8 @@ These projects were completed as part of the CS3 curriculum, focusing on:
 ---
 
 ## Languages & Tools
-- **C++** — for system-level logic and simulations  
-- **Java** — for OOP-based designs and GUI integration  
-- **IDE:** Visual Studio Code / IntelliJ IDEA  
-- **Version Control:** Git & GitHub  
+- C++  
+- Java
 
 ---
 
