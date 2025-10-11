@@ -30,6 +30,7 @@ These projects were completed as part of the CS3 curriculum, focusing on:
 | Multi-Line Simulation | C++ | Simulates customer queues in a grocery store to compare single vs. multi-line efficiency. |
 | Polynomial Calculator | Java | Implements polynomial addition, subtraction, and multiplication using OOP and linked lists. |
 | Game of Life | C++ | Conway’s cellular automaton simulation with grid visualization. |
-| Blackjack | Java | Simulates a game of Blackjack using Java Swing. |
+| Blackjack | Java | In process. |
+| Battleship | Java | In process. |
 
 ---
