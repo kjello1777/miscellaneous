@@ -1,4 +1,4 @@
-# 🧩 CS3 Miscellaneous Coding Projects
+CS3 Miscellaneous Coding Projects
 
 This repository contains a collection of coding projects written in C++ and Java for Computer Science III (CS3).
 
