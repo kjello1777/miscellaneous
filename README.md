@@ -1,8 +1,6 @@
-CS3 Miscellaneous Coding Projects
+# CS3 Miscellaneous Coding Projects
 
 This repository contains a collection of coding projects written in C++ and Java for Computer Science III (CS3).
-
----
 
 ## Overview
 
@@ -13,13 +11,9 @@ These projects were completed as part of the CS3 curriculum, focusing on:
 - **Simulation and file handling**
 - **Problem-solving and debugging skills**
 
----
-
 ## Languages & Tools
 - C++  
 - Java
-
----
 
 ## Example Projects
 
@@ -30,5 +24,3 @@ These projects were completed as part of the CS3 curriculum, focusing on:
 | Game of Life | C++ | Conway’s cellular automaton simulation with grid visualization. |
 | Blackjack | Java | In process. |
 | Battleship | Java | In process. |
-
----
